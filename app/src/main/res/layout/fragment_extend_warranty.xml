@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.krypto.blocks.warranty.fragments.ExtendWarrantyFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_extendwarranty"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="#607D8B"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/curved_linear_layout">
+
+    </android.support.v7.widget.SearchView>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@drawable/carmakeextendedwarantty">
+
+    <TextView
+        android:id="@+id/car_make"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:text="Car Make"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/car_makemodel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:text="Model : FIAT110"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/car_makeyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:text="Year   :  2014"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+</LinearLayout>
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:src="@drawable/endurance"/>
+    <TextView
+        android:id="@+id/car_endurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#000"
+        android:text="Select Premiere"
+        android:paddingLeft="10dp"
+       />
+    <TextView
+        android:id="@+id/car_endurancemileage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:paddingTop="8dp"
+        android:textColor="#000"
+        android:text="Protects vitals of high mileage vehicle"
+        android:paddingLeft="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy $1200"
+        android:textColor="#fff"
+        android:paddingLeft="10dp"/>
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:src="@drawable/carchex"/>
+    <TextView
+        android:id="@+id/car_carchex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#000"
+        android:text="Select Premiere"
+        android:paddingLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/car_carchecxemileage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:paddingTop="8dp"
+        android:textColor="#000"
+        android:text="Protects vitals of high mileage vehicle"
+        android:paddingLeft="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buycarchex"
+        android:text="Buy $1200"
+        android:textColor="#fff"
+        android:paddingLeft="10dp"/>
+
+
+</LinearLayout>

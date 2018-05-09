@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.krypto.blocks.warranty.fragments.SellFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_sell"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="#607D8B"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+
+
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/curved_linear_layout">
+
+    </android.support.v7.widget.SearchView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="vertical"
+    android:background="@drawable/carmakeextendedwarantty">
+    <TextView
+        android:id="@+id/car_make_sell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:text="Car Make"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:id="@+id/car_make_sellmodel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:text="Year"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:id="@+id/car_sell_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:text="Model"
+        android:paddingLeft="10dp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/car_sell_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="40dp"
+            android:textColor="#000"
+            android:text="$145623 USD"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/car_sell_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:text="Recommended selling price"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+            <CheckBox
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/checkbox"
+                android:paddingLeft="10dp"
+                android:button="@drawable/custom_checkbox"
+                />
+            <TextView
+                android:id="@+id/car_sell_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#e4b9d2"
+                android:text="Uncheck this if you donot want totransfer the Warranty"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="40dp"
+            android:weightSum="2">
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/sell_in_ebay"
+                android:layout_height="wrap_content"
+                android:text="Sell in ebay"
+                android:background="#0450fb"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/sell_in_amazon"
+                android:layout_height="wrap_content"
+                android:text="Sell in Amazon"
+                android:background="#ffff66"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

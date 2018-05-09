@@ -1,0 +1,446 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/content_frame"
+    android:orientation="vertical"
+    tools:context="com.krypto.blocks.warranty.fragments.ExpiredFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_expired"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="#607D8B"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/curved_linear_layout"
+        android:gravity="end">
+
+    </android.support.v7.widget.SearchView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:paddingTop="35dp"
+        android:background="@drawable/carmake"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/car_make"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#FFF"
+            android:text="Car Make"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical" />
+        <TextView
+            android:id="@+id/car_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:paddingTop="10dp"
+            android:textColor="#FFF"
+            android:text="Model               :  FIAT110"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/car_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColor="#FFF"
+            android:text="Year                  :  2014"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical" />
+        <TextView
+            android:id="@+id/car_idno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColor="#FFF"
+            android:paddingTop="15dp"
+            android:text="Vehicle ID        :  AP03 1122"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical" />
+        <TextView
+            android:id="@+id/car_buydate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:paddingTop="15dp"
+            android:textColor="#FFF"
+            android:text="Date of Purchase :  January 01,2016"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical" />
+        <TextView
+            android:id="@+id/car_milage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:paddingTop="15dp"
+            android:textColor="#FFF"
+            android:text="Mileage            :  10,000 miles"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical" />
+        <TextView
+            android:id="@+id/car_warntyexpired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:textColor="#D50000"
+            android:paddingTop="10dp"
+            android:text="Warranty Expired by"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical" />
+        <TextView
+            android:id="@+id/car_warntyexpireddate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:textColor="#D50000"
+            android:text="January 01, 2018"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/car_details_history"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:background="@drawable/curved_layout"
+                android:gravity="center"
+                android:text="Details History"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/car_buy_insurance"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:background="@drawable/curved_layout"
+                android:gravity="center"
+                android:text="BuyInsurance"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/car_extend_warranty"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:background="@drawable/curved_layout"
+                android:gravity="center"
+                android:text="Extend Warranty "/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/car_sell"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:background="@drawable/curved_layout"
+                android:text="Sell to Others"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="35dp"
+            android:background="@drawable/laptop"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/car_make_lap_mob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#FFF"
+                android:text="Laptop Make"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical" />
+            <TextView
+                android:id="@+id/car_model_lap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:text="Model               :  FIAT110"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/car_year_lap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="#FFF"
+                android:text="Year                  :  2014"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical" />
+            <TextView
+                android:id="@+id/car_idno_lap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="#FFF"
+                android:paddingTop="15dp"
+                android:text="Serial No.        :  AP03 1122"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical" />
+            <TextView
+                android:id="@+id/car_buydate_lap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:paddingTop="15dp"
+                android:textColor="#FFF"
+                android:text="Date of Purchase :  January 01,2016"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical" />
+            <TextView
+                android:id="@+id/car_milage_lap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:paddingTop="15dp"
+                android:textColor="#FFF"
+                android:text="Mileage            :  10,000 miles"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical" />
+            <TextView
+                android:id="@+id/car_warntyexpired_lap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="27dp"
+                android:textColor="#D50000" android:paddingTop="10dp"
+                android:text="No insurance Coverage"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical" />
+            <TextView
+                android:id="@+id/car_warntyexpireddate_lap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="27dp"
+                android:textColor="#D50000"
+                android:text="January 01, 2018"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/car_details_history_lap"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/curved_layout"
+                    android:gravity="center"
+                    android:text="Details History"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/car_buy_insurance_lap"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/curved_layout"
+                    android:gravity="center"
+                    android:text="BuyInsurance"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/car_extend_warranty_lap"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/curved_layout"
+                    android:gravity="center"
+                    android:text="Extend Warranty "/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/car_sell_lap"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:text="Sell to Others"
+                    android:background="@drawable/curved_layout"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="35dp"
+                android:background="@drawable/mobile"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/car_make_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textColor="#FFF"
+                    android:text="Mobile Make"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical" />
+                <TextView
+                    android:id="@+id/car_modelm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#FFF"
+                    android:text="Model               :  FIAT110"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/car_yearm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:textColor="#FFF"
+                    android:text="Year                  :  2014"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical" />
+                <TextView
+                    android:id="@+id/car_idnom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:textColor="#FFF"
+                    android:paddingTop="15dp"
+                    android:text="Serial No        :  AP03 1122"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical" />
+                <TextView
+                    android:id="@+id/car_buydatem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#FFF"
+                    android:text="Date of Purchase :  January 01,2016"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical" />
+                <TextView
+                    android:id="@+id/car_milagem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#FFF"
+                    android:text="Mileage            :  10,000 miles"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical" />
+                <TextView
+                    android:id="@+id/car_warntyexpiredm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:textColor="#D50000" android:paddingTop="10dp"
+                    android:text="Warranty Expired by"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical" />
+                <TextView
+                    android:id="@+id/car_warntyexpireddatem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:textColor="#D50000"
+                    android:text="January 01, 2018"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/car_details_historym"
+                        android:textSize="20dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/curved_layout"
+                        android:gravity="center"
+                        android:text="Details History"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/car_buy_insurancem"
+                        android:textSize="20dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/curved_layout"
+                        android:gravity="center"
+                        android:text="BuyInsurance"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/car_extend_warrantym"
+                        android:textSize="20dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/curved_layout"
+                        android:gravity="center"
+                        android:text="Extend Warranty "/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/car_sellm"
+                        android:textSize="20dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/curved_layout"
+                        android:text="Sell to Others"
+                        android:gravity="center"
+                        android:layout_gravity="center"/>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

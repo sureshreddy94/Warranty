@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Warranty</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="toolbar_for_products">Products</string>
+    <string name="toolbar_for_expied">Expired</string>
+    <string name="toolbar_for_sell">Sell</string>
+    <string name="toolbar_for_details_history">Details History</string>
+    <string name="toolbar_for_extend_warranty">Extend Warranty</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="summary_fagment">Back</string>
+    <string name="select_camera">Select Camera</string>
+    <string name="choose_formats">Choose Format</string>
+</resources>

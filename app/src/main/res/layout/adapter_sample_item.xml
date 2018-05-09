@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:paddingTop="35dp"
+    android:background="@drawable/vehicles"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#FFF"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical" />
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:paddingTop="35dp"
+        android:background="@drawable/electronics"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/item_gadget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Electronics"
+            android:textColor="#FFF"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:paddingTop="35dp"
+        android:background="@drawable/householdgoods"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/item_household"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="HouseholdGoods"
+            android:textColor="#FFF"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
